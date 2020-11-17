@@ -19,8 +19,8 @@ tag_page_dir: tag
 dash:
   date_format: "%b %-d, %Y"
 
-  disqus:
-    shortname: bitbrain-github-io
+  #disqus:
+  #  shortname: bitbrain-github-io
 
   # generate social links in footer
   # supported colors: green, red, orange, blue, cyan, pink, teal, yellow, indigo, purple
@@ -34,6 +34,9 @@ dash:
     - url: https://github.com/burkclik
       icon: github-square
       color: red
+    - url: https://github.com/burkclik
+      icon: instagram-square
+      color: cyan
 
   show_author: true
 
