@@ -3,7 +3,7 @@ author: Burak Çelik
 email: burk.clik@gmail.com
 description: > # this means to ignore newlines until "show_exerpts:"
   Generally I'm writing about Flutter on this blog, also I interested Python, Go and Rust.
-  You can mostly see blog about small Flutter projects.
+  You can mostly see articles about small Flutter projects.
   Besides these, I will try to write about movies and books which I watch and read. 
 show_excerpts: true # set to true to show excerpts on the homepage
 
