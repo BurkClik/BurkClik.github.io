@@ -25,15 +25,15 @@ dash:
   # generate social links in footer
   # supported colors: green, red, orange, blue, cyan, pink, teal, yellow, indigo, purple
   social_links:
+    - url: https://github.com/burkclik
+      icon: github
+      color: indigo
     - url: https://medium.com/@burk.clik
       icon: medium-m
       color: teal
     - url: https://www.instagram.com/burkclik/
       icon: instagram
       color: cyan
-    - url: https://github.com/burkclik
-      icon: github
-      color: red
 
   show_author: true
 
