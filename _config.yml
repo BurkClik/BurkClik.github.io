@@ -25,12 +25,9 @@ dash:
   # generate social links in footer
   # supported colors: green, red, orange, blue, cyan, pink, teal, yellow, indigo, purple
   social_links:
-    #- url: https://twitter.com/bitbrain_
-    #  icon: twitter-square
-    #  color: cyan
-    #- url: https://bitbrain.itch.io
-    #  icon: itch-io
-    #  color: red
+    - url: https://medium.com/@burk.clik
+      icon: medium-m
+      color: teal
     - url: https://www.instagram.com/burkclik/
       icon: instagram
       color: cyan
