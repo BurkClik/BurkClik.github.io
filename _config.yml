@@ -34,8 +34,8 @@ dash:
     - url: https://github.com/burkclik
       icon: github-square
       color: red
-    - url: https://github.com/burkclik
-      icon: instagram-square
+    - url: https://www.instagram.com/burkclik/
+      icon: instagram
       color: cyan
 
   show_author: true
