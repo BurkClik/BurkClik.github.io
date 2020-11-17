@@ -2,9 +2,9 @@ title: Evren Kaşifi
 author: Burak Çelik
 email: burk.clik@gmail.com
 description: > # this means to ignore newlines until "show_exerpts:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Generally I'm writing about Flutter on this blog, also I interested Python, Go and Rust.
+  You can mostly see blog about small Flutter projects.
+  Besides these, I will try to write about movies and books which I watch and read. 
 show_excerpts: true # set to true to show excerpts on the homepage
 
 paginate: 5
