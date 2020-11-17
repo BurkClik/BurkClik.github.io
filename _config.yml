@@ -31,12 +31,12 @@ dash:
     #- url: https://bitbrain.itch.io
     #  icon: itch-io
     #  color: red
-    - url: https://github.com/burkclik
-      icon: github-square
-      color: red
     - url: https://www.instagram.com/burkclik/
       icon: instagram
       color: cyan
+    - url: https://github.com/burkclik
+      icon: github
+      color: red
 
   show_author: true
 
@@ -53,5 +53,5 @@ plugins:
  - jekyll/tagging
 
 # Replaces the default avatar provider (gravatar)
-#avatar_source: github
-#github_username: bitbrain
+avatar_source: github
+github_username: burkclik
