@@ -17,7 +17,7 @@ Firebase'i Go, Python, Java, Kotlin, vb. gibi birçok dil ile kullanma imkanına
 
 **[Firebase](https://firebase.google.com/)**'in sitesine girdiğinizde *Go to console* ile kendi konsol sayfamıza gidiyoruz.
 
-![go_to_console](https://hizliresim.com/CfnEHD)
+![go_to_console](https://i.hizliresim.com/CfnEHD.png)
 
 Konsol sayfasına geldiğiniz zaman sizi yeni proje ekleyebileceğiniz veya daha önceki projelerinize erişebileceğiniz bir sayfa karşılıyor. Bu sayfada *Add Project*'i seçip yeni bir Firebase projesi oluşturmaya başlıyoruz.
 
