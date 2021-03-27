@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Flutter'da Firebase ile Login ve Register"
-description: Firebase Authentication ile Flutter uygulamamıza Login ve Register özellikleri ekleme.
+title: "Flutter Projesine Firebase'i Nasıl Entegre Ederiz?"
+description: Firebase projesi oluşturup, Flutter projemize entegre ediyoruz.
 tags: flutter firebase
 ---
 
@@ -13,7 +13,7 @@ Firebase'i Go, Python, Java, Kotlin, vb. gibi birçok dil ile kullanma imkanına
 
 ### Firebase'i Flutter Projesine Ekleme
 
-##### Firebase Projesi Oluşturma
+#### Firebase Projesi Oluşturma
 
 **[Firebase](https://firebase.google.com/)**'in sitesine girdiğinizde *Go to console* ile kendi konsol sayfamıza gidiyoruz.
 
@@ -25,7 +25,7 @@ Konsol sayfasına geldiğiniz zaman sizi yeni proje ekleyebileceğiniz veya daha
 
 Üç adımdan oluşan proje oluşturma aşamalarını tamamlamamız gerekiyor. İlk aşamada projemizin ismini belirliyoruz, ikinci aşamada projemiz için Google Analytics'in aktif olup olmayacağını belirliyoruz ve son aşamada eğer Google Analytics'i aktif ise Google Analytics hesabını seçiyoruz. Böylelikle üç adımı da tamamlayarak Firebase projemizi oluşturmuş oluyoruz.
 
-##### Firebase Projesine Android Uygulaması Ekleme
+#### Firebase Projesine Android Uygulaması Ekleme
 
 Firebase projemizi oluşturduktan sonra projemizin ana ekranına yönlendiriliyoruz. Proje ana ekranının sol tarafındaki bölümde Firebase'in sunmuş olduğu ürünleri, geri kalan kısımda ise projemiz hakkında özet bilgilerin olduğu kısımı görüyoruz. 
 
@@ -35,13 +35,13 @@ Oluşturmuş olduğumuz Firebase projesine iOS, Android, Web ve Unity uygulamala
 
 Android ikonunu seçerek Android uygulaması ekleme ekranına gidiyoruz. Burada bizi dört adımdan oluşan bir ekran karşılıyor.
 
-<img src="https://i.hizliresim.com/ZDEwtk.png" alt="add_android_app" style="zoom: 67%;" />
+<img src="https://i.hizliresim.com/ZDEwtk.png" alt="add_android_app" style="zoom: 50%;" />
 
 İlk adımda uygulamamızı kayıt etmemiz gerekiyor. Bunun için oluşturmuş olduğumuz Flutter projesinin paket ismini *Android package name* alanına yazmamız gerekiyor. Eğer paket isminizi bilmiyorsanız paket isminize *proje_isminiz/android/app/build.gradle* dizinin altında applicationId kısmından ulaşabilirsiniz.
 
-<img src="https://i.hizliresim.com/ResTeE.png" alt="package_name_path" style="zoom:67%;" />
+<img src="https://i.hizliresim.com/ResTeE.png" alt="package_name_path" style="zoom:50%;" />
 
-<img src="https://i.hizliresim.com/YwbYZs.png" alt="package_name" style="zoom:67%;" />
+<img src="https://i.hizliresim.com/YwbYZs.png" alt="package_name" style="zoom:50%;" />
 
 Paket isminizi doğru yazdığınızdan emin olduktan sonra isterseniz uygulamanıza bir nickname verebilirsiniz. İlk adımın son kısmında ise Dynamic Links veya telefon ile Authentication işlemi yapmak istiyorsanız SHA-1 sertifikanızı girmeniz gerekiyor. Bütün adımları tamamladıktan sonra uygulamamızı kayıt ediyoruz. Kayıt işleminden sonra Firebase bizim için *google-services.json* adında bir dosya oluşturuyor. Bu dosyayı indirip *proje_ismi/android/app/* in altına atıyoruz.
 
